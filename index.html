@@ -25,6 +25,8 @@
                 <li class="tabs_btn" data-for-tab = "4">Events</li>
                 <li class="tabs_btn" data-for-tab = "5">Collection</li>
                 <li class="tabs_btn" data-for-tab = "6">Art Reference</li>
+		<li class="tabs_btn" data-for-tab = "7">Tenders</li>
+		<li class="tabs_btn" data-for-tab = "8">Vacancies</li>
             </div>  
 
             <!-- Latest News -->
@@ -233,6 +235,23 @@
                             <input  type="date" id="date" name="date" class="form_input" placeholder="Date" required>
                         </div>
                     </div>
+		    <div class="form_groups">
+			<div class="dropdown" style= "float: inherit; margin: 0 0 1.2rem 0;">
+                        <div class="default_option">Select the location</div>  
+                        <ul>
+                          <li>Delhi</li>
+                          <li>Mumbai</li>
+                          <li>Bangalore</li>
+                        </ul>
+                    </div>
+		    <div class="dropdown" style= "float: inherit; margin: 0 0 1.2rem 0;">
+                        <div class="default_option">Select the Page</div>  
+                        <ul>
+                          <li>Home Page</li>
+                          <li>Events Page</li>
+                        </ul>
+                    </div>
+		    </div>
                     <div class="form_groups">
                         <div class="form_group">
                             <label style="padding: 8px 0;">Starting Time</label>
@@ -243,7 +262,10 @@
                             <input class="form_input" type="time" id="appt" name="appt" min="09:00" max="18:00" required>
                         </div>
                     </div>
-                    
+		    <div class="form_group" style="margin-top: 1.5rem;">
+                        <textarea class="form_input" id="description" name="description" placeholder="Description"></textarea>
+                        <label for="description" class="form_label">Description</label>
+                    </div>
                     <button type="submit">Add</button>
 
                     <div class="heading">
@@ -370,6 +392,114 @@
             <!-- Art Reference -->
             <div class="tabs_content" data-tab = "6">
                 <h4 class="heading_primary">Add Art Reference</h4>
+                <form action="" class="form">
+                    <div class="Neon Neon-theme-dragdropbox" style=" width: 40%;">
+                        <h2>NGMA Dehli</h2>
+                        <input style="z-index: 999; opacity: 0; width: 100%; height: 100%; position: absolute; right: 0px; left: 0px;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                </div>
+                                <div class="Neon-input-text">
+                                    <h3>Drag and Drop files here</h3> 
+                                    <span style="display:inline-block; margin: 15px 0">or</span>
+                                </div>
+                                <a class="Neon-input-choose-btn blue">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Neon Neon-theme-dragdropbox" style="float: right; width: 40%;">
+                        <h2>NGMA Mumbai</h2>
+                        <input style="z-index: 999; opacity: 0; width: 100%; height: 100%; position: absolute; right: 0px; left: 0px;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                </div>
+                                <div class="Neon-input-text">
+                                    <h3>Drag and Drop files here</h3> 
+                                    <span style="display:inline-block; margin: 15px 0">or</span>
+                                </div>
+                                <a class="Neon-input-choose-btn blue">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Neon Neon-theme-dragdropbox" style=" width: 40%; margin: 3rem auto; display: block;">
+                        <h2>NGMA Bangalore</h2>
+                        <input style="z-index: 999; opacity: 0; width: 100%; height: 100%; position: absolute; right: 0px; left: 0px;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                </div>
+                                <div class="Neon-input-text">
+                                    <h3>Drag and Drop files here</h3> 
+                                    <span style="display:inline-block; margin: 15px 0">or</span>
+                                </div>
+                                <a class="Neon-input-choose-btn blue">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+	    <!-- Tenders -->
+            <div class="tabs_content" data-tab = "7">
+                <h4 class="heading_primary">Add Tenders</h4>
+                <form action="" class="form">
+                    <div class="Neon Neon-theme-dragdropbox" style=" width: 40%;">
+                        <h2>NGMA Dehli</h2>
+                        <input style="z-index: 999; opacity: 0; width: 100%; height: 100%; position: absolute; right: 0px; left: 0px;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                </div>
+                                <div class="Neon-input-text">
+                                    <h3>Drag and Drop files here</h3> 
+                                    <span style="display:inline-block; margin: 15px 0">or</span>
+                                </div>
+                                <a class="Neon-input-choose-btn blue">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Neon Neon-theme-dragdropbox" style="float: right; width: 40%;">
+                        <h2>NGMA Mumbai</h2>
+                        <input style="z-index: 999; opacity: 0; width: 100%; height: 100%; position: absolute; right: 0px; left: 0px;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                </div>
+                                <div class="Neon-input-text">
+                                    <h3>Drag and Drop files here</h3> 
+                                    <span style="display:inline-block; margin: 15px 0">or</span>
+                                </div>
+                                <a class="Neon-input-choose-btn blue">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Neon Neon-theme-dragdropbox" style=" width: 40%; margin: 3rem auto; display: block;">
+                        <h2>NGMA Bangalore</h2>
+                        <input style="z-index: 999; opacity: 0; width: 100%; height: 100%; position: absolute; right: 0px; left: 0px;" name="files[]" id="filer_input2" multiple="multiple" type="file">
+                        <div class="Neon-input-dragDrop">
+                            <div class="Neon-input-inner">
+                                <div class="Neon-input-icon">
+                                    <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                </div>
+                                <div class="Neon-input-text">
+                                    <h3>Drag and Drop files here</h3> 
+                                    <span style="display:inline-block; margin: 15px 0">or</span>
+                                </div>
+                                <a class="Neon-input-choose-btn blue">Browse Files</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+	    <!-- Vacancies -->
+            <div class="tabs_content" data-tab = "8">
+                <h4 class="heading_primary">Add Vacancies</h4>
                 <form action="" class="form">
                     <div class="Neon Neon-theme-dragdropbox" style=" width: 40%;">
                         <h2>NGMA Dehli</h2>
